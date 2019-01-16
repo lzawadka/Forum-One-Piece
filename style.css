@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+article {
+  position: relative;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -35,11 +39,7 @@ a:hover{
   text-decoration: underline;
 }
 
-.poneglyphe {
-  width: 70vw;
-  transform: translateX(10%);
-  padding: 10px 0 10px 0;
-}
+/* Interview */
 
 .content__interview {
   padding: 0 30px 0 30px;
@@ -72,7 +72,7 @@ a:hover{
   z-index: -1;
   transform: translate(145%, -337%);
 }
-
+/* Interview */
 
 /*image personnage */
 .zoro {
@@ -80,7 +80,6 @@ a:hover{
   width: 150px;
   height: 220px;
   z-index: -1;
-  transform: translate(-34%, 10%);
 }
 
 .luffy {
@@ -88,7 +87,7 @@ a:hover{
   width: 150px;
   height: 220px;
   z-index: -1;
-  transform: translate(182%, 10%);
+  right: 0;
 }
 
 .sanji {
@@ -96,12 +95,12 @@ a:hover{
   width: 184px;
   height: 220px;
   z-index: -1;
-  transform: translate(145%, 10%);
+  right: 0;
 }
 
 /* image personnage */
 
-
+/* theorie */
 .content__theorie {
   padding: 0 30px 0 30px;
 }
@@ -143,6 +142,16 @@ a:hover{
   opacity: 0.8;;
 }
 
+.poneglyphe {
+  width: 70vw;
+  transform: translateX(10%);
+  padding: 10px 0 10px 0;
+}
+
+/* theorie */
+
+/* final scans */
+
 .content__finalScans {
   padding: 0 20px 0 20px;
 }
@@ -175,6 +184,8 @@ a:hover{
   color: inherit;
 }
 
+/* final scans */
+
 footer {
   background-color: black;
   transform: translateY(40%);
@@ -196,6 +207,10 @@ footer {
     height: 121px;
   }
 
+  nav ul {
+    font-size: 24px;
+  }
+
   /* personnages */ 
 
   .zoro {
@@ -206,19 +221,17 @@ footer {
   .luffy {
     height: 600px;
     width: 400px;
-    transform: translate(216%, 3%)
   }
 
   .sanji {
-    height: 400px;
+    height: 378px;
     width: 300px;
-    transform: translate(356%, -11%)
   }
 
   /* personnages */
-  nav ul {
-    font-size: 24px;
-  }
+  
+
+  /* interview */
 
   .content__interview {
     padding: 0 80px 0 80px;
@@ -240,6 +253,10 @@ footer {
     width: 266px;
     transform: translate(134%, -174%);
   }
+
+  /* interview */
+
+  /* theorie */
 
   .content__theorie {
     padding: 0 80px 0 80px;
@@ -269,6 +286,10 @@ footer {
     transform: translate(30%, -179%);
   }
 
+  /* theorie */
+
+  /* final scans */
+
   .content__finalScans {
     padding: 0 80px 0 80px;
   }
@@ -291,3 +312,4 @@ footer {
     transform: translate(30%, -179%);
   }
 }
+  /* final scans */
