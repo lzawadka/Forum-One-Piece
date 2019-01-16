@@ -1,0 +1,293 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.fondOnepiece {
+  width: 100vw;
+  display: block;
+}
+
+.logo {
+  position: absolute;
+  width: 180px;
+  height: 65px;
+  padding: 10px 0 0 10px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  background-color: #89C7CF;
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.poneglyphe {
+  width: 70vw;
+  transform: translateX(10%);
+  padding: 10px 0 10px 0;
+}
+
+.content__interview {
+  padding: 0 30px 0 30px;
+}
+
+.content__interview p {
+  padding: 0 5px 40px 5px;
+  background-color: #89C7CF;
+  opacity: 80%;
+  line-height: 20px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.content__interview h2 {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 100px;
+  transform: translateX(5%);
+}
+
+.content__interview h2::after{
+  content: "";
+  display: block;
+  background-color: #89C7CF;
+  width: 129px;
+  height: 15px;
+  position: absolute;
+  z-index: -1;
+  transform: translate(145%, -337%);
+}
+
+
+/*image personnage */
+.zoro {
+  position: absolute;
+  width: 150px;
+  height: 220px;
+  z-index: -1;
+  transform: translate(-34%, 10%);
+}
+
+.luffy {
+  position: absolute;
+  width: 150px;
+  height: 220px;
+  z-index: -1;
+  transform: translate(182%, 10%);
+}
+
+.sanji {
+  position: absolute;
+  width: 184px;
+  height: 220px;
+  z-index: -1;
+  transform: translate(145%, 10%);
+}
+
+/* image personnage */
+
+
+.content__theorie {
+  padding: 0 30px 0 30px;
+}
+
+.content__theorie p {
+  padding: 40px 5px 40px 5px;
+  line-height: 20px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.content__theorie h2 {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 100px;
+  transform: translateX(5%);
+}
+
+.content__theorie h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0 0 5px;
+}
+
+.content__theorie h2::after{
+  content: "";
+  display: block;
+  background-color: #89C7CF;
+  width: 129px;
+  height: 15px;
+  position: absolute;
+  z-index: -1;
+  transform: translate(24%, -337%);
+}
+
+.content__theorie__background {
+  background-color: #89C7CF;
+  opacity: 0.8;;
+}
+
+.content__finalScans {
+  padding: 0 20px 0 20px;
+}
+
+.content__finalScans h2 {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 100px;
+  transform: translateX(5%);
+}
+
+.content__finalScans h2::after{
+  content: "";
+  display: block;
+  background-color: #89C7CF;
+  width: 129px;
+  height: 15px;
+  position: absolute;
+  z-index: -1;
+  transform: translate(34%, -337%);
+}
+
+.content__finalScans ul {
+  padding: 0 20px 0 20px;
+  line-height: 30px;
+  font-weight: 500;
+  opacity: 0.8;
+  background-color: #89C7CF;
+  color: inherit;
+}
+
+footer {
+  background-color: black;
+  transform: translateY(40%);
+  height: 8vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 750px) {
+
+  .fondOnepiece {
+    height: 30vh;
+  }  
+
+  .logo {
+    width: 335px;
+    height: 121px;
+  }
+
+  /* personnages */ 
+
+  .zoro {
+    height: 600px;
+    width: 400px;
+  }
+
+  .luffy {
+    height: 600px;
+    width: 400px;
+    transform: translate(216%, 3%)
+  }
+
+  .sanji {
+    height: 400px;
+    width: 300px;
+    transform: translate(356%, -11%)
+  }
+
+  /* personnages */
+  nav ul {
+    font-size: 24px;
+  }
+
+  .content__interview {
+    padding: 0 80px 0 80px;
+  }
+
+  .content__interview p{
+    padding: 20px 10px 20px 10px;
+    font-size: 24px;
+    line-height: 25px;
+  }
+  
+  .content__interview h2 {
+    font-size: 48px;
+    transform: translateX(0%)
+  }
+
+  .content__interview h2::after {
+    height: 28px;
+    width: 266px;
+    transform: translate(134%, -174%);
+  }
+
+  .content__theorie {
+    padding: 0 80px 0 80px;
+  }
+
+  .content__theorie p{
+    padding: 20px 10px 20px 10px;
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .content__theorie h2 {
+    font-size: 48px;
+    transform: translateX(0%);
+    padding: 50px 0 50px 0;
+  }
+
+  .content__theorie h3 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 0 20px 5px;
+    line-height: 20px;
+  }
+  .content__theorie h2::after {
+    height: 28px;
+    width: 266px;
+    transform: translate(30%, -179%);
+  }
+
+  .content__finalScans {
+    padding: 0 80px 0 80px;
+  }
+
+  .content__finalScans p {
+    padding: 20px 10px 20px 10px;
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .content__finalScans h2 {
+    font-size: 48px;
+    transform: translateX(0%);
+    padding: 50px 0 50px 0;
+  }
+
+  .content__finalScans h2::after {
+    height: 28px;
+    width: 266px;
+    transform: translate(30%, -179%);
+  }
+}
